@@ -9,6 +9,8 @@
  * }
  */
 class Solution {
+    // TC -> O(N) , 3 times we are traversing
+    // SC -> O(1) , No extra space used
     public boolean isPalindrome(ListNode head) {
         if(head.next == null) return true;
 
