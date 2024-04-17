@@ -14,6 +14,8 @@
  * }
  */
 class Solution {
+    // TC -> O(N), N is the number of nodes
+    // SC -> O(H), where H is the height of the tree
     public boolean isBalanced(TreeNode root) {
 
         if(root == null) return true;
